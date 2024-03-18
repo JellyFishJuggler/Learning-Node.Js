@@ -1,3 +1,5 @@
-import generateName from 'sillyname';
-var name = generateName();
-console.log(name);
+import generateName from "sillyname";
+import superheroes from "superheroes";
+
+var sup_name = superheroes.random();
+console.log("Superhero name: " + sup_name);
